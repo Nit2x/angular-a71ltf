@@ -18,10 +18,15 @@ export class AppComponent  {
 
   itemArr = [1,2,3,4];
 
-  show : boolean  = true;
+  show : boolean  = false;
 
   user = {
     nama : 'abc'
   };
 
+  a=4;
+  Pesan  = '';
+  KlikButton() {
+    this.Pesan = 'Tombol di tekan';
+  }
 }
